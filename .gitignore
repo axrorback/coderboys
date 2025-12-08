@@ -3,3 +3,4 @@
 accounts/migrations/*
 projects/migrations/*
 logs/migrations/*
+db.sqlite3
