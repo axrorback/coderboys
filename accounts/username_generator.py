@@ -10,3 +10,4 @@ def build_username(prefix, department_code, number):
 
 def generate_email(username):
     return f"{username.lower()}@coderboys.uz"
+

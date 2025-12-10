@@ -6,6 +6,7 @@ from rest_framework.response import Response
 from rest_framework import status
 from datetime import datetime
 
+
 class LoginView(APIView):
     def post(self, request):
         username = request.data.get('username')
